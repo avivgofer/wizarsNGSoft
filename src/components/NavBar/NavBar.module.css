@@ -1,0 +1,51 @@
+.NavBar {
+  height: 60px;
+  display: inline-flex;
+  background-image: url("./images/Line.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+}
+h1 {
+  font-family: "Heebo";
+  padding-bottom: 0px;
+}
+
+.CircleOn {
+  background-image: url("./images/CircleOn.png");
+  width: 60px;
+  height: 60px;
+}
+.CircleOff {
+  background-image: url("./images/CircleOff.png");
+  width: 60px;
+  height: 60px;
+}
+.CircleDone {
+  background-image: url("./images/CircleDone.png");
+  width: 62px;
+  height: 62px;
+}
+.CircleGrey {
+  background-image: url("./images/CircleGrey.png");
+  width: 62px;
+  height: 62px;
+}
+.Element {
+  /* width: 4rem; */
+  margin: 0 28px 0 28px;
+}
+
+.Element img {
+  margin-top: 13px;
+  height: 31px;
+}
+.ElementDiv {
+  width: 4rem;
+  padding-top: 0.8rem;
+}
+.ElementSpan {
+  font-size: 0.6rem;
+  color: #19232f;
+  font-weight: bold;
+}

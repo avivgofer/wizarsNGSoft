@@ -1,0 +1,31 @@
+.Container {
+  padding-top: 3rem;
+  width: 67%;
+  min-width: 1000px;
+  margin: auto;
+}
+.Box {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: right;
+  direction: rtl;
+}
+
+.Header {
+  text-align: right;
+  color: #2a3640;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container {
+    padding-top: 3rem;
+    width: 100%;
+    max-width: 600px;
+    min-width: auto;
+    margin: auto;
+  }
+  .Box {
+    width: 100%;
+  }
+}

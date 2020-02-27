@@ -1,0 +1,22 @@
+.Container {
+  padding-top: 3rem;
+  width: 67%;
+  margin: auto;
+  min-width: 900px;
+}
+.Box {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: right;
+  direction: rtl;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container {
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,30 @@
+.BackButtonSpan {
+  font-size: 32.5px;
+  font-family: "Varela Round";
+  color: rgb(125, 136, 149);
+  font-weight: bold;
+  line-height: 0.985;
+  text-align: center;
+  -moz-transform: matrix(0.80000992014285, 0, 0, 0.80000992014285, 0, 0);
+  -webkit-transform: matrix(0.80000992014285, 0, 0, 0.80000992014285, 0, 0);
+  -ms-transform: matrix(0.80000992014285, 0, 0, 0.80000992014285, 0, 0);
+}
+.BackButton {
+  background-color: rgb(243, 244, 245);
+  box-shadow: 0px 0px 50px 0px rgba(29, 86, 158, 0.2);
+  width: 150px;
+  height: 60px;
+  z-index: 71;
+}
+
+.BackButtonImg {
+  padding-top: 0.2rem;
+  height: 19px;
+  padding-left: 0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .BackButton {
+    margin-right: 1.5rem;
+  }
+}
